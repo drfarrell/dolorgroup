@@ -1,7 +1,9 @@
-body {
+html, body {
   font-family: 'Spartan', sans-serif;
   color: white;
   background-color: #1D1D1D;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 h1 {
