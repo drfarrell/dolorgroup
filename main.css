@@ -1,0 +1,119 @@
+body {
+  font-family: 'Spartan', sans-serif;
+  color: white;
+  background-color: #1D1D1D;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+
+h3 {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 1.4;
+}
+
+h4 {
+  font-size: 12px;
+  color: lightgrey;
+  letter-spacing: 0.5px;
+}
+
+h5 {
+  font-size: 10px;
+  color: white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-top: 10px
+}
+
+
+p {
+  font-size: 14px;
+  color: grey;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+a {
+  color: lightgrey;
+}
+
+a:hover {
+  color: orangered;
+  text-decoration: none;
+}
+
+ul {
+  text-transform: uppercase;
+  font-size: 10px;
+  list-style-type: none;
+  letter-spacing: 2px;
+  margin: 10;
+  padding: 0;
+}
+
+li {
+  margin-top: 10px;
+  font-weight: 300;
+  color: grey;
+}
+
+
+nav {
+  padding: 16px;
+  background-color: #1D1D1D;
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.intro {
+  padding-top: 60px;
+}
+
+.item {
+  padding: 10px;
+  background: black;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.product {
+  /* min-height: 380px; */
+}
+
+.product-cover {
+  margin: -10px;
+  padding: 10px;
+  min-height: 260px;
+  background-color: red;
+}
+
+.product-desc {
+  margin: 20px;
+  padding-top: 10px;
+  padding-bottom: 1px;
+  color: white;
+}
+
+footer {
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.footer-item {
+  margin-top: 50px;
+}
+
